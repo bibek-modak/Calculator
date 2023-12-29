@@ -1,33 +1,44 @@
         
-        *{
-            background-color:rgb(246, 236, 179);
-        }
+    
         body{
-            height: 100%;
-            width: 100%;
+            height: 100vh;
+            width: 100vw;
             overflow: hidden;
             box-sizing: border-box;
-            
+            /* background-image: linear-gradient(135deg,red,white,blue); */
+            background-image: linear-gradient(135deg,red, rgb(70, 73, 255));
         }
         
         
         table {
-            border: 1px solid black;
+            border: 2px solid black;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 100px;
+            margin-top: 70px;
+            border-radius: 5px;
+            padding: 7px;
+            border-radius: 15px;
+            /* background-color: rgb(222, 158, 158); */
            
+        }
+
+        h2{
+            font-size: 40px;
+            text-decoration:underline;
+            color: rgb(9, 9, 76);
         }
   
         input[type="button"] {
             width: 100%;
-            padding: 20px 40px;
+            padding: 20px 35px;
             background-color: rgb(123, 60, 212);
             color: rgb(31, 14, 60);
             font-size: 24px;
             font-weight: bold;
             border: none;
-            border-radius: 5px;
+            border-radius: 25px;
+            margin: 3px;
+            border: 1px solid black;
         }
   
         input[type="text"] {
@@ -35,8 +46,68 @@
             font-size: 24px;
             font-weight: bold;
             border: none;
-            border-radius: 5px;
+            border-radius: 40px;
             border: 2px solid rgb(202, 19, 19);
             background-color: aqua;
         }
    
+
+        @media screen and (max-width:600px) {
+
+            
+        table {
+            border: 1px solid black;
+            margin-top: 120px;
+            border-radius: 10px;
+            padding: 2px 4px;
+            position:static;
+            
+
+            
+
+        }
+  
+        input[type="button"] {
+            margin: 2px 2px;
+            padding: 8px 2px;
+            background-color: rgb(123, 60, 212);
+            color: rgb(31, 14, 60);
+            font-size: 15px;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            border: 0.5px solid black;
+
+        }
+  
+        input[type="text"] {
+            padding: 5px 1px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 15px;
+            border: 2px solid rgb(202, 19, 19);
+
+        }
+
+       .container{
+            position: static;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+
+        }
+        h2{
+          position: absolute;
+            text-align: center;
+            justify-content: center;
+           font-size: 25px;
+           margin-top: 30px;
+        }
+   
+            
+        }
+
+
+            
+        
