@@ -6,7 +6,7 @@
             overflow: hidden;
             box-sizing: border-box;
             /* background-image: linear-gradient(135deg,red,white,blue); */
-            background-image: linear-gradient(135deg,red, rgb(70, 73, 255));
+             background-image: linear-gradient(red, rgb(70, 73, 255));
         }
         
         
